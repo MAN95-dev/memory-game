@@ -89,3 +89,11 @@ h1 {
 	backface-visibility: visible !important;
 	animation-duration: .75s;
 }
+
+.deck .card.unmatched {
+	animation-name: pulse;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	animation-duration: .75s;
+	background: #e2043b;
+}
