@@ -210,6 +210,22 @@ function closeModal(){
     });
 }
 
+// @desciption for user to play Again 
+function playAgain(){
+    modal.classList.remove("show");
+    startGame();
+}
+
+
+// loop to add event listeners to each card
+for (var i = 0; i < cards.length; i++){
+    card = cards[i];
+    card.addEventListener("click", displayCard);
+    card.addEventListener("click", cardOpen);
+    card.addEventListener("click",congratulations);
+};
+
+
 
 
  
