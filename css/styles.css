@@ -115,14 +115,14 @@ h1 {
 	margin-bottom: 10px;
 }
 
-.score-panel .stars {
+.score-panel .trophy {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
 	margin: 0 5px 0 0;
 }
 
-.score-panel .stars li {
+.score-panel .trophy li {
 	list-style: none;
 	display: inline-block;
 }
@@ -132,7 +132,7 @@ h1 {
 	cursor: pointer;
 }
 
-.fa-star {
+.fa-trophy {
 	color: #FFD700;
 }
 
@@ -208,7 +208,7 @@ h1 {
 	opacity: 100 !important;
 }
 
-#starRating li {
+#trophyRating li {
 	display: inline-block;
 }
 
