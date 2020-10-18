@@ -38,6 +38,7 @@ h1 {
  * Styles for the deck of cards
  */
 
+
 .deck {
 	width: 85%;
 	background: #716F71;
@@ -103,6 +104,7 @@ h1 {
 	opacity: 0.9;
 }
 
+
 /*
  * Styles for the Score Panel
  */
@@ -139,6 +141,7 @@ h1 {
 	margin: 0 1rem;
 }
 
+
 /*
  * Styles for congratulations modal
  */
@@ -171,8 +174,8 @@ h1 {
 	transition: all 5s ease-in-out;
 	font-family: 'Gloria Hallelujah', cursive;
 }
-
-popup h2 {
+  
+.popup h2 {
 	margin-top: 0;
 	color: #333;
 	font-family: Tahoma, Arial, sans-serif;
@@ -331,6 +334,7 @@ popup h2 {
 		width: 60%;
 	}
 }
+
 
 
 
