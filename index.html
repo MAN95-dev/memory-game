@@ -30,70 +30,81 @@
         		<i class="fa fa-repeat"></i>
         	</div>
         </section>
-        <ul class="deck" id="card-deck">
-            <li class="card" type="diamond">
-                <i class="fa fa-diamond"></i>
-            </li>
-            <li class="card" type="plane">
-                <i class="fa fa-paper-plane-o"></i>
-            </li>
-            <li class="card match" type="anchor">
-                <i class="fa fa-anchor"></i>
-            </li>
-            <li class="card" type="bolt" >
-                <i class="fa fa-bolt"></i>
-            </li>
-            <li class="card" type="cube">
-                <i class="fa fa-cube"></i>
-            </li>
-            <li class="card match" type="anchor">
-                <i class="fa fa-anchor"></i>
-            </li>
-            <li class="card" type="leaf">
-                <i class="fa fa-leaf"></i>
-            </li>
-            <li class="card" type="bicycle">
-                <i class="fa fa-bicycle"></i>
-            </li>
-            <li class="card" type="diamond">
-                <i class="fa fa-diamond"></i>
-            </li>
-            <li class="card" type="bomb">
-                <i class="fa fa-bomb"></i>
-            </li>
-            <li class="card" type="leaf">
-                <i class="fa fa-leaf"></i>
-            </li>
-            <li class="card" type="bomb">
-                <i class="fa fa-bomb"></i>
-            </li>
-            <li class="card open show" type="bolt">
-                <i class="fa fa-bolt"></i>
-            </li>
-            <li class="card" type="bicycle">
-                <i class="fa fa-bicycle"></i>
-            </li>
-            <li class="card" type="plane">
-                <i class="fa fa-paper-plane-o"></i>
-            </li>
-            <li class="card" type="cube">
-                <i class="fa fa-cube"></i>
-            </li>
-        </ul>
+        <section class="memory-game">
+  <div class="memory-card">
+    <img class="front-face" src="img/elsa.png" alt="elsa">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/elsa.png" alt="elsa">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/anna.png" alt="anna">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/anna.png" alt="anna">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/woody.png" alt="woody">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/woody.png" alt="woody">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/buzz.png" alt="buzz">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/buzz.png" alt="buzz">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/mcqueen" alt="mcqueen">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/mcqueen" alt="mcqueen">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/mater.png" alt="mater">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card">
+    <img class="front-face" src="img/mater.png" alt="mater">
+    <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+  </div>
+</section>
         <div id="popup1" class="overlay">
             <div class="popup">
                 <h2>Congratulations 🎉</h2>
                 <a class="close" href="#">×</a>
                 <div class="content-1">
-                    Congratulations you're a winner 🎉🎉
+                    Congratulations you're a winner!
                 </div>
                 <div class="content-2">
                     <p>You made <span id="finalMove"> </span> moves </p>
                     <p>in <span id="totalTime"> </span> </p>
-                    <p>Rating:  <span id="starRating"></span></p>
+                    <p>Rating:  <span id="trophyRating"></span></p>
                 </div>
                 <button id="play-again" onclick="playAgain()">
-                    <a>Play again 😄</a>
+                    <a>Play again</a>
                 </button>
             </div>
         </div>
