@@ -34,3 +34,23 @@ function shuffle(array) {
 
     return array;
 };
+
+// @description shuffles cards when page is refreshed / loads
+document.body.onload = startGame();
+ 
+// @description function to start a new play 
+function startGame(){
+ 
+    // empty the openCards array
+    openedCards = [];
+
+   // shuffle deck
+    cards = shuffle(cards);
+    // remove all exisiting classes from each card
+    for (var i = 0; i < cards.length; i++){
+        deck.innerHTML = "";
+        [].forEach.call(cards, function(item) {
+            deck.appendChild(item);
+        });
+        cards[i].classList.remove("show", "open", "match", "disabled");
+    }
