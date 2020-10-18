@@ -104,6 +104,20 @@ h1 {
 	opacity: 0.9;
 }
 
+/*
+ * new css
+ */
+
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  border-radius: 5px;
+  background: #1C7CCC;
+}
+
 
 /*
  * Styles for the Score Panel
