@@ -15,8 +15,18 @@ const stars = document.querySelectorAll(".fa-star");
 // declaring variable of matchedCards
 let matchedCard = document.getElementsByClassName("match");
 
+ // stars list
+ let starsList = document.querySelectorAll(".stars li");
+
+ // close icon in modal
+ let closeicon = document.querySelector(".close");
+
+ // declare modal
+ let modal = document.getElementById("popup1")
+
  // array for opened cards
 var openedCards = [];
+
 
 // @description shuffles cards
 // @param {array}
@@ -35,16 +45,18 @@ function shuffle(array) {
     return array;
 };
 
+
 // @description shuffles cards when page is refreshed / loads
 document.body.onload = startGame();
- 
+
+
 // @description function to start a new play 
 function startGame(){
  
     // empty the openCards array
     openedCards = [];
 
-   // shuffle deck
+    // shuffle deck
     cards = shuffle(cards);
     // remove all exisiting classes from each card
     for (var i = 0; i < cards.length; i++){
@@ -79,6 +91,7 @@ var displayCard = function (){
     this.classList.toggle("disabled");
 };
 
+
 // @description add opened cards to OpenedCards list and check if cards are match or not
 function cardOpen() {
     openedCards.push(this);
@@ -93,6 +106,7 @@ function cardOpen() {
     }
 };
 
+
 // @description when cards match
 function matched(){
     openedCards[0].classList.add("match", "disabled");
@@ -101,6 +115,7 @@ function matched(){
     openedCards[1].classList.remove("show", "open", "no-event");
     openedCards = [];
 }
+
 
 // description when cards don't match
 function unmatched(){
@@ -114,6 +129,7 @@ function unmatched(){
         openedCards = [];
     },1100);
 }
+
 
 // @description disable cards temporarily
 function disable(){
@@ -132,6 +148,7 @@ function enable(){
         }
     });
 }
+
 
 // @description count player's moves
 function moveCounter(){
@@ -161,6 +178,7 @@ function moveCounter(){
     }
 }
 
+
 // @description game timer
 var second = 0, minute = 0; hour = 0;
 var timer = document.querySelector(".timer");
@@ -179,6 +197,7 @@ function startTimer(){
         }
     },1000);
 }
+
 
 // @description congratulations when all cards match, show modal and moves, time and rating
 function congratulations(){
@@ -202,6 +221,7 @@ function congratulations(){
     };
 }
 
+
 // @description close icon on modal
 function closeModal(){
     closeicon.addEventListener("click", function(e){
@@ -209,6 +229,7 @@ function closeModal(){
         startGame();
     });
 }
+
 
 // @desciption for user to play Again 
 function playAgain(){
@@ -224,8 +245,5 @@ for (var i = 0; i < cards.length; i++){
     card.addEventListener("click", cardOpen);
     card.addEventListener("click",congratulations);
 };
-
-
-
 
  
