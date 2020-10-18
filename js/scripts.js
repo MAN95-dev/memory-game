@@ -14,3 +14,23 @@ const stars = document.querySelectorAll(".fa-star");
 
 // declaring variable of matchedCards
 let matchedCard = document.getElementsByClassName("match");
+
+ // array for opened cards
+var openedCards = [];
+
+// @description shuffles cards
+// @param {array}
+// @returns shuffledarray
+function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+};
