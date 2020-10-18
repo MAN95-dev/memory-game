@@ -11,3 +11,6 @@ let counter = document.querySelector(".moves");
 
 // declare variables for star icons
 const stars = document.querySelectorAll(".fa-star");
+
+// declaring variable of matchedCards
+let matchedCard = document.getElementsByClassName("match");
