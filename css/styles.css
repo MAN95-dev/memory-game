@@ -193,3 +193,15 @@ popup h2 {
 	color: #E5F720;
 }
 
+.popup .content-1,
+.content-2 {
+	max-height: 30%;
+	overflow: auto;
+	text-align: center;
+}
+
+.show {
+	visibility: visible !important;
+	opacity: 100 !important;
+}
+
