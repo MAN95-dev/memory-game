@@ -1,3 +1,4 @@
+
 // cards array holds all cards
 let card = document.getElementsByClassName("card");
 let cards = [...card];
@@ -10,13 +11,13 @@ let moves = 0;
 let counter = document.querySelector(".moves");
 
 // declare variables for star icons
-const trophy = document.querySelectorAll(".fa-trophy");
+const stars = document.querySelectorAll(".fa-star");
 
 // declaring variable of matchedCards
 let matchedCard = document.getElementsByClassName("match");
 
- // trophy list
- let trophyList = document.querySelectorAll(".trophy li");
+ // stars list
+ let starsList = document.querySelectorAll(".stars li");
 
  // close icon in modal
  let closeicon = document.querySelector(".close");
@@ -58,21 +59,21 @@ function startGame(){
 
     // shuffle deck
     cards = shuffle(cards);
-    // remove all existing classes from each card
-    for (var img = 0; img < cards.length; img++){
+    // remove all exisiting classes from each card
+    for (var i = 0; i < cards.length; i++){
         deck.innerHTML = "";
         [].forEach.call(cards, function(item) {
             deck.appendChild(item);
         });
-        cards[img].classList.remove("show", "open", "match", "disabled");
+        cards[i].classList.remove("show", "open", "match", "disabled");
     }
     // reset moves
     moves = 0;
     counter.innerHTML = moves;
     // reset rating
-    for (var img= 0; img < trophy.length; img++){
-        trophy[img].style.color = "#FFD700";
-        trophy[img].style.visibility = "visible";
+    for (var i= 0; i < stars.length; i++){
+        stars[i].style.color = "#FFD700";
+        stars[i].style.visibility = "visible";
     }
     //reset timer
     second = 0;
@@ -165,14 +166,14 @@ function moveCounter(){
     if (moves > 8 && moves < 12){
         for( i= 0; i < 3; i++){
             if(i > 1){
-                trophy[i].style.visibility = "collapse";
+                stars[i].style.visibility = "collapse";
             }
         }
     }
     else if (moves > 13){
         for( i= 0; i < 3; i++){
             if(i > 0){
-                trophy[i].style.visibility = "collapse";
+                stars[i].style.visibility = "collapse";
             }
         }
     }
@@ -208,12 +209,12 @@ function congratulations(){
         // show congratulations modal
         modal.classList.add("show");
 
-        // declare trophy rating variable
-        var trophyRating = document.querySelector(".trophy").innerHTML;
+        // declare star rating variable
+        var starRating = document.querySelector(".stars").innerHTML;
 
         //showing move, rating, time on modal
         document.getElementById("finalMove").innerHTML = moves;
-        document.getElementById("trophyRating").innerHTML = trophyRating;
+        document.getElementById("starRating").innerHTML = starRating;
         document.getElementById("totalTime").innerHTML = finalTime;
 
         //closeicon on modal
@@ -245,5 +246,3 @@ for (var i = 0; i < cards.length; i++){
     card.addEventListener("click", cardOpen);
     card.addEventListener("click",congratulations);
 };
-
- 

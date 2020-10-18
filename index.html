@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Disney Memory Game</title>
+    <title>Memory Game</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -13,9 +13,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>
-                <a href="https://fontmeme.com/disney-font/"><img src="https://fontmeme.com/permalink/201018/65ce4ecc55da9b326933cb1829f48bc9.png" alt="disney-font" border="0"></a>
-            </h1>
+            <h1>Memory Game</h1>
         </header>
         <section class="score-panel">
         	<ul class="trophy">
@@ -30,67 +28,56 @@
         		<i class="fa fa-repeat"></i>
         	</div>
         </section>
-        <section class="memory-game">
-  <div class="memory-card">
-    <img class="front-face" src="img/elsa.png" alt="elsa">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/elsa.png" alt="elsa">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/anna.png" alt="anna">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/anna.png" alt="anna">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/woody.png" alt="woody">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/woody.png" alt="woody">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/buzz.png" alt="buzz">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/buzz.png" alt="buzz">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/mcqueen" alt="mcqueen">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/mcqueen" alt="mcqueen">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/mater.png" alt="mater">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-
-  <div class="memory-card">
-    <img class="front-face" src="img/mater.png" alt="mater">
-    <img class="back-face" src="img/disney.png" alt="Memory Card">
-  </div>
-</section>
+     <ul class="deck" id="card-deck">
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" type="plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card match" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" type="bolt" >
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card match" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card open show" type="bolt">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card" type="plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
         <div id="popup1" class="overlay">
             <div class="popup">
                 <h2>Congratulations 🎉</h2>
