@@ -1,6 +1,6 @@
 # Halloween Memory Game - Milestone Project 2
 
-(/imgs/memory-game.png) 
+![memory-game](/imgs/memory-game.png) 
 
 This project was created as the second of four milestone projects for Code Institute. 
 The challenge was to create an interactive front-end website. The aim was to utilize the skills that were learnt in the first few modules, 
@@ -105,7 +105,7 @@ The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build
 
 1. **Dashboard**
     - The game dashboard contains the score panel (3 stars), move(s) counter, timer, and reset button.   
-    (imgs/dashboard.png)
+    ![dashboard](imgs/dashboard.png)
     
 2. **Score panel**
     - Located above the game cards, provides a score out of 3 stars. 
@@ -126,7 +126,7 @@ The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build
 6. **Game board and cards**
     - The game board is where the memory cards are displayed. 
     - The cards are laid out in a grid 4 cards wide on medium to large screens, and 4 cards wide on phones.
-    (/imgs/game.png)
+    ![game](/imgs/game.png)
 
 7. **Congratulatory modal** 
     - A win modal pops up when a game is completed, congratulating the player.
