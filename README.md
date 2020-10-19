@@ -104,7 +104,8 @@ The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build
 ### Existing Features
 
 1. **Dashboard**
-    - The game dashboard contains the score panel (3 stars), move(s) counter, timer, and reset button.   
+    - The game dashboard contains the score panel (3 stars), move(s) counter, timer, and reset button.
+
     ![dashboard](imgs/dashboard.png)
     
 2. **Score panel**
@@ -126,13 +127,15 @@ The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build
 6. **Game board and cards**
     - The game board is where the memory cards are displayed. 
     - The cards are laid out in a grid 4 cards wide on medium to large screens, and 4 cards wide on phones.
+
     ![game](/imgs/game.png)
 
 7. **Congratulatory modal** 
     - A win modal pops up when a game is completed, congratulating the player.
     - The win modal displays the number of stars the player won for the game they just played, as well the number of moves they made in the game, and the time it         
       took for the player to cmplete the game. 
-    (/imgs/winning-modal.png)
+
+    ![winning modal](/imgs/winning-modal.png)
 
 ### Features Left to Implement
 
