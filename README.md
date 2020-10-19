@@ -57,7 +57,7 @@ Players goals are:
 
 As a player aged between 6-14 years old, I want:
 1. The ability to easily find and understand the controls for the game, so that I can operate them easily. 
-2. Large easy to press buttons and controls, so that my young children can use them on all devices.
+2. Large easy to press buttons and controls, so that young children can use them on all devices.
 3. Visual icons and images that I recognise, so that I understand when I have achieved something in the game. 
 4. The ability to see how long it takes me to finish a game, so that I can track my game time. 
 5. The ability to see how many moves I make in a game, so that I can track the number of moves made in each game. 
@@ -121,8 +121,7 @@ The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build
     - This time is then used to give the player a score out of 3 stars when the game is complete.
  
 5. **Reset button**
-    - The reset button, represented by a curved arrow, resets the game, when it is pressed the game turns any face-up cards back over, reshuffles them and resets         
-      the move(s) counter back to 0. 
+    - The reset button, represented by a curved arrow, resets the game, when it is pressed the game turns any face-up cards back over, reshuffles them and resets the move(s) counter back to 0. 
     
 6. **Game board and cards**
     - The game board is where the memory cards are displayed. 
@@ -132,8 +131,7 @@ The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build
 
 7. **Congratulatory modal** 
     - A win modal pops up when a game is completed, congratulating the player.
-    - The win modal displays the number of stars the player won for the game they just played, as well the number of moves they made in the game, and the time it         
-      took for the player to cmplete the game. 
+    - The win modal displays the number of stars the player won for the game they just played, as well as the number of moves they made in the game, and the time it took for the player to complete the game. 
 
     ![winning modal](/imgs/winning-modal.png)
 
@@ -190,8 +188,8 @@ at various screen sizes. The site was viewed in both Chrome and Safari on the fo
 - iPad Pro
 - Laptop screen
 
-I played the memory game to ensure that it worked as it was supposed to. 
-I clicked on the 'play again' button to ensure the game restarted once clicked on.
+- I played the memory game to ensure that it worked as it was supposed to. 
+- I clicked on the 'play again' button to ensure the game restarted once clicked on.
 
 ## Deployment
  
