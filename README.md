@@ -13,7 +13,7 @@ vegan recipes. It was also built to inform users about a vegetarian and vegan di
 1. [**UX**](#ux)
     - [**Project Goals**](#project-goals)
     - [**Player goals**](#player-goals)
-    - [**Developer and Business Goals**](#developer-and-Business-Goals)
+    - [**Developer Goals**](#developer-and-Business-Goals)
     - [**User Stories**](#user-stories)
     - [**Design choices**](#design-choices)
     - [**Wireframes**](#wireframes)
@@ -60,29 +60,9 @@ PicFlip! is a great way to help players meet these needs because:
 - PicFlip! includes audio and visual rewards as part of the game.
 - The overall feel of PicFLip! is fun and child-friendly.
 
-#### Parental goals
+#### Developer Goals
 
-Parents of pre-school children have a large amount of say about what games their children are exposed to, 
-therefore parental needs must also be at the forefront of any project designed for children in this age group. 
-
-Parent's goals are:
-- A game with child development value. In this case to improve their memory and spatial awareness.
-- Usability for the range of abilities in pre-school kids.
-- A visually appealing, well-functioning game. 
-- The ability for a parent to reset the stored player profile. 
-- A mute button.
-
-PicFlip! is a great way to help parents meet these needs because:
-- PicFlip! gives a child a fun environment in which to practice their memory skills. 
-- Game includes 3 levels of difficulty ranging from 8 to 16 cards.
-- It has been designed with user experience as a priority, not only for a child using it but also for a parent.
-- The game includes a reset data option, which is easy to find and operate by an adult who can read and do simple mathematics.
-
-#### Developer and Business Goals
-
-- Well thought out programming that prepares for a child's random and unpredictable use of PicFlip! 
-For example, that the game cannot be broken by clicking many areas quickly, or if it is restarted at an unexpected moment. 
-- A professional looking first dip into the world of using JavaScript, jQuery and Jasmine. 
+- A developer looking to use JavaScript to create an interactive game. 
 - A project the developer is excited to make a part of her portfolio. 
 
 #### User Stories
@@ -128,9 +108,8 @@ The following design choices were made with this in mind:
 
 The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) during the research and planning process for this project. 
 
-- [User info modal](https://i.ibb.co/FWBy68Q/Create-profile.png)
-- [Game page](https://i.ibb.co/H2XtCW9/Game-page.png)
-- [Win pop-up](https://i.ibb.co/5809P3Q/Win-popup.png)
+- Game-page ![Game page](/imgs/game-page.png)
+- Win pop-up ![Win pop-up](/imgs/win-popup.png)
 
 ## Features
  
@@ -210,7 +189,6 @@ at various screen sizes. The site was viewed in both Chrome and Safari on the fo
 - Galaxy S5
 - Pixel 2
 - Pixel 2 XL
-- iPhone 5/SE
 - iPhone 6/7/8
 - iPhone 6/7/8 plus
 - iPhone X
