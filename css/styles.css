@@ -34,7 +34,6 @@ h1 {
     color: white;
 }
 
-
 /*
  * Styles for the deck of cards
  */
@@ -289,7 +288,6 @@ h1 {
 	}
 }
 
-
 /****** Media queries
 ***************************/
 @media (max-width: 320px) {
@@ -302,7 +300,6 @@ h1 {
 		width: 4.7rem;
 	}
 }
-
 
 /* For Tablets and larger screens
 ****************/
