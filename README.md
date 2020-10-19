@@ -97,7 +97,7 @@ The following design choices were made with this in mind:
 The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) during the research and planning process for this project. 
 
 - Game-page ![Game page](/imgs/game-page.png)
-- Win popup ![Win popup](/imgs/win-popup.png)
+- Win-popup ![Win popup](/imgs/win-popup.png)
 
 ## Features
  
