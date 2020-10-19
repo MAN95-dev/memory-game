@@ -3,11 +3,8 @@
 (/imgs/memory-game.png) 
 
 This project was created as the second of four milestone projects for Code Institute. 
-The challenge was to create a static front-end cooking website. We needed to utilize the skills that were learnt in the first few modules, 
-specifically HTML and CSS. This project was built as a recipe index for users wanting access to vegetarian and vegan recipes. The purpose
-of the project was to provide recipes for users practicing a vegetarian and vegan diet as well as users wanting to explore vegetarian and 
-vegan recipes. It was also built to inform users about a vegetarian and vegan diet.
-
+The challenge was to create an interactive front-end website. The aim was to utilize the skills that were learnt in the first few modules, 
+specifically HTML, CSS, and JavaScript. This project was built as a Halloween themed memory game.  
 
 ## Table of Contents
 1. [**UX**](#ux)
@@ -38,27 +35,18 @@ vegan recipes. It was also built to inform users about a vegetarian and vegan di
 
 ### Project Goals
 
-The primary goal of PicFlip! is to provide a clean, intuitive and child friendly game to entertain and delight it's users.
-PicFlip! has two target audiences: Pre-school children and their parents. 
+The primary goal of the Halloween memory game is to provide children with a fun, theme-based memory game. 
 
 #### Player goals
 
-The central target audience for this game is pre-school children aged 1 to 5 years old.
+The central target audience for this game is children aged 7 to 14 years old.
 
 Players goals are:
 - A fun game to play.
 - Child friendly controls.
-- Large buttons and clickable areas for young fingers to operate.
+- Large buttons and clickable areas for young children to operate.
 - All game controls laid out together and in an intuitive way. 
-- Fun images and sounds. 
-- Visual and audio rewards while playing.
-
-PicFlip! is a great way to help players meet these needs because:
-- The planning and design process took all these needs into account before starting to build it. 
-- Controls are grouped together clearly.
-- Game controls are large, utilising icons and colours to communicate their purpose before any words that a child would not be able to read. 
-- PicFlip! includes audio and visual rewards as part of the game.
-- The overall feel of PicFLip! is fun and child-friendly.
+- Fun theme and images. 
 
 #### Developer Goals
 
@@ -117,7 +105,7 @@ The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build
 
 1. **Dashboard**
     - The game dashboard contains the score panel (3 stars), move(s) counter, timer, and reset button.   
-    (/imgs/dashboard.png)
+    (imgs/dashboard.png)
     
 2. **Score panel**
     - Located above the game cards, provides a score out of 3 stars. 
