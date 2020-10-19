@@ -155,53 +155,35 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
  
 ### Existing Features
 
-2. **Dashboard**
+1. **Dashboard**
     - The game dashboard contains the player info display, difficulty selection, character selection, info, mute and reset buttons. 
     - On mobile devices a chevron arrow is displayed to tell the player to scroll downwards to the game board. 
-
-5. **Character selection buttons**
-    - Players can choose from three different Disney movie characters to display on the memory cards.
-    - Selecting any of these buttons turns any face-up cards back over and reshuffles the cards.
-
-6. **Mute button**
-    - The mute button switches off all audio in the game. It is represented by a large speaker icon, which switches to one with a cross next to it when active.
- 
-7. **Reset button**
-    - The reset button, represented by a curved arrow, resets the game, when it is pressed the game turns any face-up cards back over, reshuffles them and resets the turns counter back to 0. 
-    - It does not reset the difficulty level or characters chosen for the cards. 
-
-8. **Info button**
-    - Represented by a large question mark, the info button opens the info modal. 
-    - The info modal offers easy to understand instructions on how to play the game. 
-    - Underneath how to play instructions there is information on how to open the modal to delete the player’s profile. 
-    - The place to click is easy for an adult to see, but not an obvious button to click for a child. 
-
-<div align="center">
-<img src="https://i.ibb.co/xJ7PbS2/info-modal.jpg" alt="Screenshot: Info Modal" >
-</div><br>
-
-9. **Parental check modal**
-    - This modal appears if the correct icon is clicked in the info modal. 
-    - It explains that deleting the player profile will remove all game data including high scores. 
-    - Then it asks a simple maths question with 9 possible answers to choose from, only if the correct answer is clicked will the player profile be deleted. 
-    - All other choices will close the modal when clicked with no further effects to the game.
-    - At this point the maths question and correct answer are static. This is a feature I would like to update in the future (see [Features Left to Implement](#Features-left-to-implement) for more information)
-
-10. **Turns counter**
+    
+2. **Score panel**
+    - Located above the game cards, the turns counter counts the number of turns the player has taken in the current game.
+    
+3. **Move(s) counter**
     - Located above the game cards, the turns counter counts the number of turns the player has taken in the current game. 
     - This total is then used to give the player a score out of 5 stars when the game is complete.
-
-11. **Game board and cards**
+    
+4. **Timer**
+    - Located above the game cards, the turns counter counts the number of turns the player has taken in the current game. 
+    - This total is then used to give the player a score out of 5 stars when the game is complete.
+ 
+5. **Reset button**
+    - The reset button, represented by a curved arrow, resets the game, when it is pressed the game turns any face-up cards back over, reshuffles them and resets         the turns counter back to 0. 
+    - It does not reset the difficulty level or characters chosen for the cards. .
+    
+6. **Game board and cards**
     - The game board is where the memory cards are displayed. 
-    - The cards are laid out in a grid 4 cards wide on medium to large screens, and 3 cards wide on phones to allow the size to remain easy for young fingers to tap on.
+    - The cards are laid out in a grid 4 cards wide on medium to large screens, and 3 cards wide on phones to allow the size to remain easy for young fingers to         tap on.
     - The number of rows of cards visible changes depending on the difficulty level selected. 
 
-12. **Win modals** 
+12. **Congratulatory modal** 
     - PicFlip! has two possible win modals that pop up when a game is completed. 
     - Both win modals display the number of stars the player won for the game they just played.
     - The standard win modal is launched if the player completed the game, but did not beat their previous high score.
     - The high score win modal is launched for a new high score, along with the number of stars earned the high score win modal also displays a trophy picture.
-
 
 ### Features Left to Implement
 
@@ -210,8 +192,8 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
     - Easy (8 cards), Medium (12 cards), Hard (16 cards), and Expert (20 cards). 
     
 2. **Theme selection**
-    - Players can choose from three different Disney movie characters to display on the memory cards.
-    - Selecting any of these buttons turns any face-up cards back over and reshuffles the cards.
+    - Add different themes for each level for players to choose from.
+    - Each theme has a unique card deck and background that matches the theme chosen. 
     
 3. **Player info modal** 
     - When playing the game for the first time, a modal pops up and asks for the players name.
@@ -221,10 +203,13 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 4. **Player info display**
     - At the top of the dashboard add the players name to be displayed. 
     - Underneath this add a display to show their highest score (out of 3 stars). 
-    - The star display changes if a different level is selected. 
+    - The star display changes if a different level or theme is selected. 
     
-
-
+5. **Info button**
+    - Add an info modal that offers easy to understand instructions on how to play the game. 
+    - The modal can be represented by an icon, the info button opens the info modal. 
+    - The icon will be displayed on the dashboard.
+   
 ## Technologies Used
 
 - This project uses HTML, CSS and JavaScript programming languages.
