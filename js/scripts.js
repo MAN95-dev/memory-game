@@ -57,6 +57,7 @@ openedCards = [];
 
 // shuffle deck
 cards = shuffle(cards);
+
 // remove all exisiting classes from each card
     for (var i = 0; i < cards.length; i++){
         deck.innerHTML = "";
@@ -149,7 +150,8 @@ function enable(){
 function moveCounter(){
     moves++;
     counter.innerHTML = moves;
-    //start timer on first click
+
+//start timer on first click
     if(moves == 1){
         second = 0;
         minute = 0; 
@@ -157,7 +159,7 @@ function moveCounter(){
         startTimer();
     }
 
-    // setting rates based on moves
+// setting rates based on moves
     if (moves > 8 && moves < 12){
         for( i= 0; i < 3; i++){
             if(i > 1){
