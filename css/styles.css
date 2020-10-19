@@ -31,14 +31,13 @@ body {
 
 h1 {
 	font-family: 'Creepster', cursive;
+    color: white;
 }
 
 
 /*
  * Styles for the deck of cards
  */
-
-
 .deck {
 	width: 85%;
 	background: #716F71;
@@ -104,15 +103,13 @@ h1 {
 	opacity: 0.9;
 }
 
-
 /*
  * Styles for the Score Panel
  */
-
-
 .score-panel {
 	text-align: left;
 	margin-bottom: 10px;
+    color: white;
 }
 
 .score-panel .stars {
@@ -141,12 +138,9 @@ h1 {
 	margin: 0 1rem;
 }
 
-
 /*
  * Styles for congratulations modal
  */
-
-
 .overlay {
 	position: fixed;
 	top: 0;
@@ -298,8 +292,6 @@ h1 {
 
 /****** Media queries
 ***************************/
-
-
 @media (max-width: 320px) {
 	.deck {
 		width: 85%;
@@ -314,7 +306,6 @@ h1 {
 
 /* For Tablets and larger screens
 ****************/
-
 @media (min-width: 768px) {
 	.container {
 		font-size: 22px;
