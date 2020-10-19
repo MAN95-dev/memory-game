@@ -1,9 +1,6 @@
 <h1 align="center">
-  <a href="https://ajgreaves.github.io/picflip/" target="_blank"><img src="https://i.ibb.co/SdxYJty/pic-Flipbanner.png" alt="PicFlip! logo"/></a>
+  <a href="https://MAN95-dev.github.io/memory-game/" target="_blank"><img src="img/memory-game.png" alt="Memory-Game"/></a>
 </h1>
-<h2 align="center">
-<a href="https://ajgreaves.github.io/picflip/" target="_blank"><img src="https://i.ibb.co/f8g0CYk/tagline.png" alt="Memory card game for pre-school kids" ></a>
-</h2>
 
 <div align="center"> 
 
