@@ -1,15 +1,13 @@
 <h1 align="center">
-  <a href="https://MAN95-dev.github.io/memory-game/" target="_blank"><img src="img/memory-game.png" alt="Memory-Game"/></a>
+  <a href="#" target="_blank"><img src="img/memory-game.png" alt=" Halloween Memory Game"/></a>
 </h1>
 
 <div align="center"> 
-
-[PicFlip!](https://ajgreaves.github.io/picflip/) is an engaging and entertaining memory card game, designed for children aged between 1 and 5 years old. 
-Features include easy to operate controls, 3 levels of difficulty, entertaining animations and sounds,
-characters that children enjoy, with an overall feel of child friendly entertainment.
+Halloween memory game is an entertaining memory game for children. 
+Features include fun animations, a mover counter, timer and an overall rating of your performance when finished. 
 <br>
 
-[View the PicFlip! page](https://ajgreaves.github.io/picflip/)
+[View the Halloween memory game]()
 
 </div>
 
@@ -17,7 +15,6 @@ characters that children enjoy, with an overall feel of child friendly entertain
 1. [**UX**](#ux)
     - [**Project Goals**](#project-goals)
     - [**Player goals**](#player-goals)
-    - [**Parental goals**](#parental-goals)
     - [**Developer and Business Goals**](#developer-and-Business-Goals)
     - [**User Stories**](#user-stories)
     - [**Design choices**](#design-choices)
@@ -32,15 +29,12 @@ characters that children enjoy, with an overall feel of child friendly entertain
 4. [**Testing**](#testing)
 
 5. [**Deployment**](#deployment)
-    - [**How to run this project locally**](#how-to-run-this-project-locally)
 
 6. [**Credits**](#credits)
     - [**Content**](#content)
     - [**Media**](#media)
     - [**Code**](#code)
     - [**Acknowledgements**](#acknowledgements)
-
-7. [**Disclaimer**](#disclaimer)
 
 ## UX
 
@@ -148,12 +142,6 @@ The overall feel of the game is one that is designed for children to enjoy. The 
 Cars characters were specifically chosen because it is extremely popular with boys, 
 the Frozen characters because they are very popular with girls, 
 and the Toy Story Characters because they appeal to both girls and boys. 
-
-**Audio files**
-
-- To continue the feeling of a game made for children, clicking button sounds were added that are similar to the sounds a child might hear when operating a physical toy with buttons. 
-- The card flipping sounds and "bing" on a correct match were added to give positive feedback on use of the game. 
-- The sound of applauding children played on completing the game was chosen because it appeals most to children, and again fits within the theme of PicFlip!
 
 ### Wireframes
 
@@ -277,111 +265,60 @@ In the future more functionality can be added to the parental check modal to:
 ## Technologies Used
 
 - This project uses HTML, CSS and JavaScript programming languages.
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-- [Cloud9](https://c9.io) 
-    - Developer used **Cloud9** for their IDE while building the website.
-- [Bootstrap](https://www.bootstrapcdn.com/)
-    - The project uses **Bootstrap** to simplify the structure of the website and make the website responsive easily.
-    - The project also uses Bootstrap to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [Gitpod](hhttps://www.gitpod.io/) 
+    - Developer used **Gitpod** for their IDE while building the website.
 - [Google Fonts](https://fonts.google.com/)
     - The project uses **Google fonts** to style the website fonts.
-- [Imgbb](https://imgbb.com)
-    - All external images for this project are stored on **Imgbb.com**.
-- [Jasmine](https://jasmine.github.io/)
-    - This project used **Jasmine** to automatically test all JavaScript and jQuery code.
-- [Jasmine-jQuery](https://github.com/velesin/jasmine-jquery)
-    - This project used **Jasmine-jQuery** CDN to make it possible to test jQuery code using Jasmine.
+- [Font Awesome](https://fontawesome.com/)
+    - The project uses **Font Awesome** to provide icons for the memory game.
 - [GitHub](https://github.com/)
     - This project uses **GitHub** to store and share all project code remotely. 
-    - The new GitHub Projects planner was utilised to plan and keep track of this project. This project plan can be viewed [here](https://github.com/AJGreaves/picflip/projects/1).
-- [Photoshop](www.adobe.com/Photoshop)
-    - This project used tools in **Photohshop** to edit, crop and save images as well as ulitising the colour picker to ensure color consistency over the entire project.
-- [Browserstack](https://www.browserstack.com/)
-    - The project used **Browserstack** to test functionality on all browsers and devices.
-- [AutoPrefixer](https://autoprefixer.github.io/)
-    - The project used **AutoPrefixer** to make sure all css prefixes were the most up to date versions. 
-
+    
 ## Testing 
 
-Testing information can be found in separate [testing.md](testing.md) file
+The HTML and CSS code was validated using the W3C validator. It had no errors or warnings to show. The website was examined in both
+Chrome and Safari to check for cross brower compatibility. The responsive design mode was used in both browsers to examine the site 
+at various screen sizes. The site was viewed in both Chrome and Safari on the following devices:
+
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 plus
+- iPhone X
+- iPad
+- iPad Pro
+- Laptop screen
+
+I played the memory game to ensure that it worked as it was supposed to. 
+I clicked on the 'play again' button to ensure the game restarted once clicked on.
 
 ## Deployment
-
-This project was developed using the [Cloud9 IDE](https://c9.io), committed to git and pushed to GitHub using the built in function within cloud9. 
-
-To deploy PicFlip! to GitHub Pages from its [GitHub repository](https://github.com/AJGreaves/picflip), the following steps were taken: 
-1. Log into GitHub. 
-2. From the list of repositories on the screen, select **AJGreaves/picflip**.
-3. From the menu items near the top of the page, select **Settings**.
-4. Scroll down to the **GitHub Pages** section.
-5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
-6. On selecting Master Branch the page is automatically refreshed, PicFlip! is now deployed. 
-7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
-
-The PicFlip project made use of several branches for development, testing and bug fixing. 
-The Master Branch has always been the one deployed to GitHUb Pages. When displaying the website life, the developer tries to keep the master branch to optimal code only.
-At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
-
-### How to run this project locally
-
-To clone this project from GitHub:
-1. Follow this link to the [PicFlip GitHub repository](https://github.com/AJGreaves/picflip).
-2. Under the repository name, click "Clone or download".
-3. In the Clone with HTTPs section, copy the clone URL for the repository. 
-4. In your local IDE open Git Bash.
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type ```git clone```, and then paste the URL you copied in Step 3.
-```console
-git clone https://github.com/USERNAME/REPOSITORY
-```
-7. Press Enter. Your local clone will be created.
-
-Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
+ 
+This project was developed using [Gitpod](https://www.gitpod.io/), committed to git, pushed to GitHub, and deployed via GitHub pages.  
 
 ## Credits
 
 ### Content
 
-- All text in this project was written by the developer.
+- The text from the memory game was copied from [Scotch](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
+- The text from the README.md file was copied from [Picflip!](https://github.com/AJGreaves/picflip)
 
 ### Media
 
 #### Images
-- The PicFlip logo was created using [Hatchful](https://hatchful.shopify.com).
-- The Trophy image used was sourced from [Kissping](https://www.kisspng.com).
-- The images for the user avatar were sourced from [Pngtree](https://pngtree.com).
-- The images used for the memory cards were obtained from [Google Images](https://www.google.com/imghp?hl=en) and are used for educational purposes only. 
-Copyright for the memory card images belong to [Disney](https://www.thewaltdisneycompany.com/) and [Pixar](https://www.pixar.com/).
-- The comic-book style modal backgrounds were sourced from [freepik](https://www.freepik.com)
-- The game board background photograph was obtained from [Jason Leung on Unsplash](https://unsplash.com/photos/M55JcA9wOG0).
 
-#### Audio
-- The audio file for button click sound was sourced from [SoundJay](https://www.soundjay.com).
-- The audio files for card flip sound, matched cards sound and children applauding were sourced from [FreeSound](https://freesound.org/).
+- The background image for my memory game was taken from [Wallpaper Abyss](https://wall.alphacoders.com/by_sub_category.php?id=152813&name=Halloween+Wallpapers)
+- The icons for my card deck were taken from [Font Awesome](https://fontawesome.com/icons?d=gallery&c=halloween&m=free)
 
 ### Code
-- Code for the card flip animation taken from this [W3Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) post.
-- Box shadow codes were generated at [CSS matic | box-shadow](https://cssmatic.com/box-shadow).
-- Code for filtering through an array for specific values sourced from this [StackOverflow](https://stackoverflow.com/questions/6120931/how-to-count-the-number-of-certain-element-in-an-array) post.
-- Code for making images into radio buttons sourced from this [StackOverflow](https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons) post.
-- Code for adding the correct prefixes to css was created using [AutoPrefixer](https://autoprefixer.github.io/).
-- Function to toggle text in the pull up tab from push to pull taken from this [StackOverflow](https://stackoverflow.com/questions/2155453/jquery-toggle-text) post.
+
+- The code for my memory game was taken from [Scotch](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
 
 ### Acknowledgements
 
-Special thanks to: 
-- Code Institute Mentor Simen Daehlin for his time and support in explaining and demonstrating areas of code this developer was struggling to understand.
-- Alumni John Longgately and Robin Zigmond for their help in guiding this developer in understanding JavaScript, jQuery and Jasmine testing. 
-- Owen (4) and Declan (9) who tested the game play extensively, and offered advice on what would make it more fun for them to play.
+Special thanks to:
+- Code Institute tutors for helping support and guide me in the right direction with my code. 
 
-#### Disclaimer
-The content of this website, including the images used, are for educational purposes only.
-
-### A note to my fellow Code Institute students
-
-I am happy that you have come to look at my readme as an example of how to write a good one for your second Milestone project. You are welcome to learn how to structure and format your own readme from mine.
-
-However, it is not ok to copy and paste large portions of it into your own project. Please remember to write your own readme yourself, rather than copying mine or someone elses.
-
-Many thanks! Anna
+Many thanks! Michelle
