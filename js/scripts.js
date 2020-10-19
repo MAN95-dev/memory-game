@@ -44,10 +44,8 @@ function shuffle(array) {
     return array;
 };
 
-
 // @description shuffles cards when page is refreshed / loads
 document.body.onload = startGame();
-
 
 // @description function to start a new play 
 function startGame(){
