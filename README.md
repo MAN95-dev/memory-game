@@ -97,13 +97,14 @@ As a player aged between 6-14 years old, I want:
 
 ### Design Choices
 
-The overall feel of the game is one that is designed for children to enjoy. The following design choices were made with this in mind:
+The overall feel of the game is one that is designed for children to enjoy during Halloween, scary events, or in general. 
+The following design choices were made with this in mind:
 
 **Fonts**
 
-- The primary font **Fredoka One** was chosen because it resembles the simple letters used in products made for pre-school children. It's likeness to fridge magnets for children is nostalgic for parents as well. 
+- The primary font **Creepster** was chosen because it resembles one of many scary fonts used during Halloween.  
 
-- The secondary font **Bubblegum Sans** was chosen for its childlike qualities, while complementing the primary font nicely in style because it is more compact.
+- The secondary font **Permanent Marker** was chosen for its childlike qualities, while complementing the primary font nicely in style.
 
 **Icons**
 
@@ -112,12 +113,7 @@ The overall feel of the game is one that is designed for children to enjoy. The 
 **Colours**
 
 - The colours - black, orange, and purple were used, as they are common colors used and identified with during Halloween. 
-- The whhte font was chosen, as it contrasts well on the dark background. 
-
-**Styling**
-
-- Cards and container boxes were given rounded corners to continue the child friendly theme, many real life memory cards for children have corners like this. 
-- Repeating the same rounded corner pattern throughout the page keeps consistency in design and maintains the feeling that all elements belong together. 
+- The white font was chosen, as it contrasts well on the dark background. 
 
 **Backgrounds**
 
@@ -130,7 +126,7 @@ The overall feel of the game is one that is designed for children to enjoy. The 
 
 ### Wireframes
 
-These wireframes were created using [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project. 
+The wireframes were taken from [Scotch](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) during the research and planning process for this project. 
 
 - [User info modal](https://i.ibb.co/FWBy68Q/Create-profile.png)
 - [Game page](https://i.ibb.co/H2XtCW9/Game-page.png)
