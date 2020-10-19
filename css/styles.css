@@ -18,8 +18,7 @@ body {
 
 body {
 	background-image: url(https://images3.alphacoders.com/739/thumb-1920-739643.jpg);
-	font-family: 'Permanent Marker', cursive;
-	font-size: 16px;
+	font-family: 'Creepster', cursive;
 }
 
 .container {
@@ -32,7 +31,7 @@ body {
 h1 {
 	font-family: 'Creepster', cursive;
     color: white;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 /*
@@ -110,6 +109,7 @@ h1 {
 	text-align: left;
 	margin-bottom: 10px;
     color: white;
+    font-size: 20px; 
 }
 
 .score-panel .stars {
